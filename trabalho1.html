@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trabalho 1</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="trabalho1.css">
+</head>
+
+<body>
+
+    <header class="contanier1">
+        <section class="row cabecalho">
+            <div class="col-3 col-sm-3 col-md-6 col-lg-6">
+                <nav>
+                    <input type="checkbox" id="menuToggle">
+                    <label for="menuToggle" class="menu-icon">
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-times-circle"></i>
+                    </label>
+
+                    <ul class="nav">
+                        <li><a href="#">perfil</a></li>
+                        <li><a href="#">|</a></li>
+                        <li><a href="#">projetos</a></li>
+                        <li><a href="#">|</a></li>
+                        <li><a href="#">experiência</a></li>
+                        <li><a href="#">|</a></li>
+                        <li><a href="#">repositórios github</a></li>
+                        <li><a href="#">|</a></li>
+                        <li><a href="#">conteúdo</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-9 col-sm-9 col-md-6 col-lg-6 pesquisa">
+                <nav class="navbar navbar-light bg-light">
+                    <form style="background-color: gray;" class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="search">
+                        <button style="background-color:lightgray;" class="btn btn-outline-success"
+                            type="submit">Ok</button>
+                    </form>
+
+                </nav>
+
+            </div>
+
+        </section>
+
+    </header>
+
+    <main class="contanier2">
+
+        <section id="um" class="row apresentacao">
+
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                <img src="imags/3x4Matheus.jpeg" alt="">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+                <h1 id="nome">
+                    <strong>Matheus Santos Ferreira Costa</strong>
+                </h1>
+                <p id="objetivos">
+                    <strong>Objetivos:</strong> Me formar em Engenharia de Computação pela Pontifícia Universidade
+                    Católica de Minas Gerais (Puc Minas) com boas notas e tirando bom aproveito dos conhecimentos
+                    passados pelos professores. Para que assim eu possa me tornar um ótimo profissional da área.
+                </p>
+
+                <div class="card">
+                    <p><strong>Redes Sociais: </strong></p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="social-icon text-xs-center" target="_blank"
+                                href="https://www.facebook.com/matheussantosfcosta/">
+                                <i style="color: black;" class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-icon text-xs-center" target="_blank"
+                                href="https://twitter.com/math_costa7">
+                                <i style="color: black;" class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-icon text-xs-center" target="_blank"
+                                href="https://www.instagram.com/mathcosta7/">
+                                <i style="color: black;" class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="row materias_opcoes">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h1 id="materias">
+                    <strong>Matérias sendo Cursadas</strong>
+                </h1>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="dropdown">
+                    <button style="background-color: lightgray;" class="btn btn-secondary dropdown-toggle" type="button"
+                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <strong>Categoria: TODOS⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</strong>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Web Sites</a></li>
+                        <li><a class="dropdown-item" href="#">Arte Gráfica</a></li>
+                        <li><a class="dropdown-item" href="#">Podcast⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="dois" class="row materias">
+
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 aeds2">
+                <img src="imags/aeds2.jpg" alt="">
+                <p><strong>Algoritmos e Estrutura de Dados 2</strong></p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 calculo">
+                <img src="imags/calculo_II.jpg" alt="">
+                <p><strong>Cálculo 2</strong></p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 arq">
+                <img src="imags/i241134.jpeg" alt="">
+                <p><strong>Arquitetura de Computadores 1</strong></p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 desen">
+                <img src="imags/web.jpg" alt="">
+                <p><strong>Desenvolvimento de Interfaces Web</strong></p>
+            </div>
+
+        </section>
+
+        <section class="row materias_botao">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 botao">
+                <button type="button" class="btn btn-secondary">+ Carregar matérias anteriores</button>
+            </div>
+        </section>
+
+        <section id="tres" class="row colegio">
+            <h1 id="colegios">
+                <strong>Instituições de ensino</strong>
+            </h1>
+        </section>
+
+        <section class="row colegio1">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <img src="imags/puc.png" alt="">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                <h1 id="colegio">
+                    <strong>Estudante Faculdade</strong>
+                </h1>
+                <p id="texto">
+                    Pontifícia Universidade Católica de Minas Gerais (Puc Minas) é uma instituição de ensino superior,
+                    privada e católica brasileira situada em Belo Horizonte, capital do estado de Minas Gerais. Fundada
+                    em 12 de dezembro de 1958 (62 anos)
+                </p>
+                <h1 id="periodo">
+                    Período: 02/2021 até o momento
+                </h1>
+            </div>
+        </section>
+
+        <section class="row colegio2">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <img src="imags/Sagrado.jpg" alt="">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                <h1 id="colegio">
+                    <strong>Estudante Fundamental 2 e Ensino Médio</strong>
+                </h1>
+                <p id="texto">
+                    Colégio Sagrado Coração de Jesus é uma instituição de primario, ensino fundamental 1 ensino
+                    fundamental 2 e ensino médio, privada e católica brasileira situada em Belo Horizonte, capital do
+                    estado de Minas Gerais. Fundada 15 de janeiro de 1911 (110 anos).
+                </p>
+                <h1 id="periodo">
+                    Período: 02/2014 a 12/2020
+                </h1>
+            </div>
+        </section>
+
+        <section class="row colegio3">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <img src="imags/csa.jpg" alt="">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                <h1 id="colegio">
+                    <strong>Estudante Fundamental 1</strong>
+                </h1>
+                <p id="texto">
+                    Colégio Santo Antônio é uma instituição de primario, ensino fundamental 1 ensino fundamental 2 e
+                    ensino médio, privada e franciscano brasileiro é , situado na região da Savassi de Belo Horizonte,
+                    capital do estado de Minas Gerais. Fundada no ano de 1909 (112 anos).
+                </p>
+                <h1 id="periodo">
+                    Período: 02/2009 a 12/2013
+                </h1>
+            </div>
+        </section>
+
+        <section class="row colegios_botao">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <button type="button" class="btn btn-secondary">+ Carregar outras instituições</button>
+            </div>
+        </section>
+
+
+        <section id="github" class="row github">
+            <h1 id="github1">
+                <strong>Repositórios GitHub</strong>
+            </h1>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <h1 id="repositorio">
+                    <strong>Repositório A</strong>
+                </h1>
+                <p id="avaliacao">
+                    <strong>Avaliação:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+                    neque necessitatibus debitis
+                    itaque magni optio nostrum officia pariatur! Animi labore suscipit libero delectus necessitatibus
+                    aperiam ipsam ab dignissimos? Molestias, dolor!
+                </p>
+                <h1 id="atualizado">
+                    <strong>Atualizado em: 02/09/2021</strong>
+                </h1>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <h1 id="repositorio">
+                    <strong>Repositório B</strong>
+                </h1>
+                <p id="avaliacao">
+                    <strong>Avaliação:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+                    neque necessitatibus debitis
+                    itaque magni optio nostrum officia pariatur! Animi labore suscipit libero delectus necessitatibus
+                    aperiam ipsam ab dignissimos? Molestias, dolor!
+                </p>
+                <h1 id="atualizado">
+                    <strong>Atualizado em: 02/09/2021</strong>
+                </h1>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <h1 id="repositorio">
+                    <strong>Repositório C</strong>
+                </h1>
+                <p id="avaliacao">
+                    <strong>Avaliação:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+                    neque necessitatibus debitis
+                    itaque magni optio nostrum officia pariatur! Animi labore suscipit libero delectus necessitatibus
+                    aperiam ipsam ab dignissimos? Molestias, dolor!
+                </p>
+                <h1 id="atualizado">
+                    <strong>Atualizado em: 02/09/2021</strong>
+                </h1>
+            </div>
+        </section>
+
+        <section class="row github_botao">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <button type="button" class="btn btn-secondary">+ Carregar mais repositórios</button>
+            </div>
+        </section>
+
+        <section id="quatro" class="row videos">
+            <h1 id="videos">
+                <strong>Recomendação de Conteúdo</strong>
+            </h1>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 video1">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/uDbG3-mqnT8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p id="titvideo">
+                    <strong>Vídeo:</strong> Análise dos Algoritmos de Ordenação
+                </p>
+                <h1 id="parvideo">
+                    <strong>Criador:</strong> Matheus Costa
+                </h1>
+                <p id="parvideo">
+                    <strong>Públicação:</strong> 28/09/2021
+                </p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/KAIBijoQUP0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p id="titvideo">
+                    <strong>Vídeo:</strong> Trabalho Ciência de Dados de ISI
+                </p>
+                <h1 id="parvideo">
+                    <strong>Criador:</strong> Matheus, Henrique, Ludmilla e
+                    Hernane
+                </h1>
+                <p id="parvideo">
+                    <strong>Públicação:</strong> 09/05/2021
+                </p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/puhS1DRIO2g" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p id="titvideo">
+                    <strong>Vídeo:</strong> Armazenamento em nuvem com Drive
+                </p>
+                <h1 id="parvideo">
+                    <strong>Criador:</strong> Matheus Costa
+                </h1>
+                <p id="parvideo">
+                    <strong>Públicação:</strong> 14/06/2021
+                </p>
+        </section>
+
+        <section class="row videos_botao">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <button type="button" class="btn btn-secondary">+ Carregar mais vídeos</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="contanier3">
+        <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <strong>Matheus Costa</strong></p>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
